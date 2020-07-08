@@ -13,16 +13,12 @@ body {
 
 .hover-effect:hover {
     background-color: white;
-    box-shadow: 15px 35px 15px lightgray;
+    box-shadow: 6px 6px 3px lightgray;
     transform: scale(1.1);
 }
 
 .hover-effect>.card-body>img {
     padding: 15px;
-}
-
-.container {
-    margin-bottom: 100px;
 }
 
 section {
@@ -36,6 +32,10 @@ section {
     margin: 10px 10px;
 }
 
+.second-section {
+    padding-top: 100px;
+}
+
 .second-section img {
     width: 500px;
 }
@@ -47,7 +47,7 @@ section {
 .card {
     border: none;
     border-radius: 10px 40px;
-    box-shadow: 10px 20px 10px lightgray;
+    box-shadow: 3px 3px 3px lightgray;
 }
 
 .card-footer {
