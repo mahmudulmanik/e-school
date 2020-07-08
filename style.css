@@ -1,17 +1,39 @@
+.navbar-nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
-    padding-bottom: 50px;
+.hover-effect {
+    transition: all .2s ease-in-out;
+}
+
+.hover-effect:hover {
+    background-color: white;
+    box-shadow: 15px 35px 15px lightgray;
+    transform: scale(1.1);
+}
+
+.hover-effect>.card-body>img {
+    padding: 15px;
 }
 
 .container {
     margin-bottom: 100px;
 }
 
-.bg-color {
-    background-color: #d2ffeb;
+section {
+    padding-bottom: 50px;
+}
+
+.footer-section {
+    color: white;
+    background-color: #282531;
+    padding: 40px 20px 1px 20px;
+    margin: 10px 10px;
 }
 
 .second-section img {
@@ -19,12 +41,13 @@ section {
 }
 
 .categories img {
-    width: 100px;
+    width: 110px;
 }
 
 .card {
     border: none;
-    border-radius: 10px;
+    border-radius: 10px 40px;
+    box-shadow: 10px 20px 10px lightgray;
 }
 
 .card-footer {
@@ -66,4 +89,13 @@ h2 {
 
 #orange-bg {
     color: tomato;
+}
+
+.bg-color {
+    background-color: #d2ffeb;
+}
+
+footer {
+    color: white;
+    text-align: center;
 }
