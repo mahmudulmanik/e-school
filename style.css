@@ -10,6 +10,10 @@ section {
     margin-bottom: 100px;
 }
 
+.bg-color {
+    background-color: #d2ffeb;
+}
+
 .second-section img {
     width: 500px;
 }
@@ -21,11 +25,9 @@ section {
 .card {
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 20px 10px lightgray;
 }
 
 .card-footer {
-    background-color: white;
     border-top: none;
 }
 
@@ -53,8 +55,8 @@ h2 {
     background-image: linear-gradient(to bottom, #21B573 0%, #21B573 100%);
     color: white;
     border: none;
-    border-radius: 30px;
-    padding: 10px 35px;
+    border-radius: 33px;
+    padding: 12px 36px;
     cursor: pointer;
 }
 
